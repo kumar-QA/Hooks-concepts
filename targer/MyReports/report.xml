@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.849">
+    <testcase classname="Verify all possibilites Test login in functionality of paraBank" name="verify the login functionality with valid credentials" time="0.25">
+        <system-out><![CDATA[Given customer entered application url and landed on login page.............passed
+When customer enter username and password...................................passed
+And click on login button...................................................passed
+Then customer should landed on Dashboard page...............................passed
+And click on login button...................................................passed
+Then customer should landed on Dashboard page...............................passed
+]]></system-out>
+    </testcase>
+</testsuite>

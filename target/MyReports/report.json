@@ -1,0 +1,990 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-23T10:56:42.052Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3060600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ParabankHooks.setup_Browser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ParabankHooks.setup_Url()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "verify registration functionality with multiple Data",
+        "description": "",
+        "id": "verify-registration-page-functionality-with-datadriven-testing;verify-registration-functionality-with-multiple-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 996800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ParabankHooks.teardown_logout()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ParabankHooks.teardown_close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1003700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1010900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User is on register page",
+            "match": {
+              "location": "com.stepdefination.DataTable_For_Specific_step_feature.user_is_on_register_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1427700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user Enter \"prasanna\" and \"Kumar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"prasanna\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.stepdefination.DataTable_For_Scenario.user_enter_and(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1368200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1373100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user should enter \"prasannakumar@gmail.com\" and \"9550335422\" also",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"prasannakumar@gmail.com\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"9550335422\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.stepdefination.DataTable_For_Scenario.user_should_enter_and_also(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user  click on register btn",
+            "match": {
+              "location": "com.stepdefination.DataTable_For_Scenario.user_click_on_register_btn()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2995900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user should get success Message notification",
+            "match": {
+              "location": "com.stepdefination.DataTable_For_Scenario.user_should_get_success_message_notification()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1007400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "user should navigate to homePage directly",
+            "match": {
+              "location": "com.stepdefination.DataTable_For_Scenario.user_should_navigate_to_home_page_directly()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-23T10:56:42.249Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1465200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ParabankHooks.setup_Browser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ParabankHooks.setup_Url()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "verify registration functionality with multiple Data",
+        "description": "",
+        "id": "verify-registration-page-functionality-with-datadriven-testing;verify-registration-functionality-with-multiple-data;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ParabankHooks.teardown_logout()"
+            }
+          },
+          {
+            "result": {
+              "duration": 995200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ParabankHooks.teardown_close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 998400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User is on register page",
+            "match": {
+              "location": "com.stepdefination.DataTable_For_Specific_step_feature.user_is_on_register_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1001000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user Enter \"pramod\" and \"Kumar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pramod\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.stepdefination.DataTable_For_Scenario.user_enter_and(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user should enter \"kumar@gmail.com\" and \"9550225422\" also",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kumar@gmail.com\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"9550225422\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.stepdefination.DataTable_For_Scenario.user_should_enter_and_also(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user  click on register btn",
+            "match": {
+              "location": "com.stepdefination.DataTable_For_Scenario.user_click_on_register_btn()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user should get success Message notification",
+            "match": {
+              "location": "com.stepdefination.DataTable_For_Scenario.user_should_get_success_message_notification()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "user should navigate to homePage directly",
+            "match": {
+              "location": "com.stepdefination.DataTable_For_Scenario.user_should_navigate_to_home_page_directly()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Registration page Functionality with DataDriven Testing",
+    "description": "",
+    "id": "verify-registration-page-functionality-with-datadriven-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DataTable_For_Scenario.feature",
+    "tags": [
+      {
+        "name": "@f1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-23T10:56:42.283Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ParabankHooks.setup_Browser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ParabankHooks.setup_Url()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "calculating netsalary functionality",
+        "description": "",
+        "id": "verifying-salary-calculation-functionality;calculating-netsalary-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ParabankHooks.teardown_logout()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ParabankHooks.teardown_close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1004700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user should navigate to calculation page",
+            "match": {
+              "location": "com.stepdefination.SalaryCalculation_steps.user_should_navigate_to_calculation_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 994300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user enter grosssalary \"480000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"480000\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.stepdefination.SalaryCalculation_steps.user_enter_grosssalary(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user enter \"0\" and \"43200\" and \"6000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"43200\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"6000\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.stepdefination.SalaryCalculation_steps.user_enter_and_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4988200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user should get NetSalary information \"430800\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"430800\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.stepdefination.SalaryCalculation_steps.user_should_get_net_salary_information(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 990900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-23T10:56:42.320Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ParabankHooks.setup_Browser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ParabankHooks.setup_Url()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "calculating netsalary functionality",
+        "description": "",
+        "id": "verifying-salary-calculation-functionality;calculating-netsalary-functionality;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ParabankHooks.teardown_logout()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ParabankHooks.teardown_close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1001800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user should navigate to calculation page",
+            "match": {
+              "location": "com.stepdefination.SalaryCalculation_steps.user_should_navigate_to_calculation_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user enter grosssalary \"800000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"800000\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.stepdefination.SalaryCalculation_steps.user_enter_grosssalary(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user enter \"40000\" and \"30000\" and \"6000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"40000\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"30000\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"6000\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.stepdefination.SalaryCalculation_steps.user_enter_and_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.bfs()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user should get NetSalary information \"724000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"724000\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.stepdefination.SalaryCalculation_steps.user_should_get_net_salary_information(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.ParabankHooks.afs()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          }
+        ]
+      }
+    ],
+    "name": "verifying salary calculation functionality",
+    "description": "",
+    "id": "verifying-salary-calculation-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SalaryCalculation.feature",
+    "tags": [
+      {
+        "name": "@f1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

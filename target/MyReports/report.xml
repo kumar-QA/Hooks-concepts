@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.725">
+    <testcase classname="Verify Registration page Functionality with DataDriven Testing" name="verify registration functionality with multiple Data" time="0.158">
+        <system-out><![CDATA[Given User is on register page..............................................passed
+When user Enter "prasanna" and "Kumar"......................................passed
+And user should enter "prasannakumar@gmail.com" and "9550335422" also.......passed
+When user  click on register btn............................................passed
+Then user should get success Message notification...........................passed
+Then user should navigate to homePage directly..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Registration page Functionality with DataDriven Testing" name="verify registration functionality with multiple Data 2" time="0.017">
+        <system-out><![CDATA[Given User is on register page..............................................passed
+When user Enter "pramod" and "Kumar"........................................passed
+And user should enter "kumar@gmail.com" and "9550225422" also...............passed
+When user  click on register btn............................................passed
+Then user should get success Message notification...........................passed
+Then user should navigate to homePage directly..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="verifying salary calculation functionality" name="calculating netsalary functionality" time="0.021">
+        <system-out><![CDATA[Given user should navigate to calculation page..............................passed
+When user enter grosssalary "480000"........................................passed
+And user enter "0" and "43200" and "6000"...................................passed
+Then user should get NetSalary information "430800".........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="verifying salary calculation functionality" name="calculating netsalary functionality 2" time="0.01">
+        <system-out><![CDATA[Given user should navigate to calculation page..............................passed
+When user enter grosssalary "800000"........................................passed
+And user enter "40000" and "30000" and "6000"...............................passed
+Then user should get NetSalary information "724000".........................passed
+]]></system-out>
+    </testcase>
+</testsuite>
